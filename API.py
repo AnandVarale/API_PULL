@@ -11,7 +11,7 @@ df = pd.DataFrame(response.json())
 print(df.columns)
 
 df = df[
-    ["id", "name", "username", "email", "phone", "website"]
+    ["id", "name", "username", "email", "phone"]
 ]
 
 # Uppercase names
